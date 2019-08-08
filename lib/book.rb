@@ -6,7 +6,6 @@ class Book
 
   def initialize(title)
     @title = title
-
   end
 
   def turn_page
@@ -18,6 +17,5 @@ class Book
     @genre
     GENRES.push(genre)
   end
-
   
 end
